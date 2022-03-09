@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# geopackages & csv
+*.csv
+*.geopackages
