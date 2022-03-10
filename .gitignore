@@ -130,4 +130,4 @@ dmypy.json
 
 # geopackages & csv
 *.csv
-*.geopackages
+*.gpkg
