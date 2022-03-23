@@ -1,7 +1,5 @@
 # World Data League 2022
 
-3. ✏️ Write your executive summary - make sure you write to a non-technical crowd. You can refer to images that are in the Submission Notebook.
-
 ## 🎯 Challenge
 **Predict Waste Production for its Reduction**
 
@@ -23,15 +21,17 @@ We started with the Austin garbage collection data that was provided with the ch
 ## 🧮 Methods and Techniques (250 words max)
 We started by performing data analysis to understand the given data. 
 Data Analysis Steps:
- * 1
- * 2
+ * We started with understanding how each column is distributed with some descriptive statistics and visulaizations
+ * we tried to understand how the garbage collection is per each category of load type as well as for each drop off site
+ * Further, we analysed the relation between load type and route type.
  * 
 For forcasting the weekly waste generated (load weight) we have used the time series analysis and forecasting algorithm ARIMA. We have also tried a few regression techniques, relatively ARIMA performed better based on the evaluation metric Mean Absolute Error. 
 
 ## 💡 Main Insights (300 words max)
 Explain what you discovered from addressing this problem, such as interesting facts or statistics.
-1. 1
-2. 
+1. From the data, we understood that the largest category of type of waste collected comes under garbage collections followed by recycling
+2. The route numbers PW and PH prefer garbage colleection usually going towards TDS lanfill
+3. 
 
 ## 🛠️ Product
 ### Definition
