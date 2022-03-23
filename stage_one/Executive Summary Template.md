@@ -24,7 +24,8 @@ Data Analysis Steps:
  * We started with understanding how each column is distributed with some descriptive statistics and visulaizations
  * we tried to understand how the garbage collection is per each category of load type as well as for each drop off site
  * Further, we analysed the relation between load type and route type.
- * 
+ * We tried an alternative of looking on at 2021 data for for route numbers. This is because routes are more likely to change on an annual basis. 
+ * Next, we 
 For forcasting the weekly waste generated (load weight) we have used the time series analysis and forecasting algorithm ARIMA. We have also tried a few regression techniques, relatively ARIMA performed better based on the evaluation metric Mean Absolute Error. 
 
 ## 💡 Main Insights (300 words max)
