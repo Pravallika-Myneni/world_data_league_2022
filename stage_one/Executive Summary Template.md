@@ -13,18 +13,25 @@ Include all the authors that have worked on this submission. It is not obligator
 * Neha Shaah
 
 ## ✨ Introduction (250 words max)
-Provide a contextualization of the problem, together with an estimation of its size using real numbers and references.
+In today’s time, we have pressures to minimize the carbon footprint and other environmental effects caused by their businesses – Waste management and disposal is one of the most important issues for them. In today’s world, waste management and disposal is a big challenge not only for the industries, but also for the communities in general. It is not an issue restricted to any particular region or country, but is a global challenge across countries and continents. The challenge is real as increase in global population and commercial activity is only likely to increase in waste. Globally, various governments and businesses are working to find innovative ways to minimize the waste generation as well as to find and implement effective and efficient ways of waste disposal; recycling is one of the effective and widely adopted methods.
 
+Estimation of the waste production is for the successful planning of efficient waste management system, their further sustainable development and optimization.
 
 ## 🔢 Data (250 words max)
-We started with the Austin garbage collection data that was provided with the challenge. Through over literature survey we found that it would be wise to include weather and air pollution data in our analysis. The pollution data that we have is pm25 numbers while weather data includes information about temperatures, wind and precipation. We also used open street map data for our analysis. It would be great to see the geographic co-ordinates mapped and also include block wise census data to further support our analysis
+We started with the Austin garbage collection data that was provided with the challenge. Through over literature survey we found that it would be wise to include weather and air pollution data in our analysis. The pollution data that we have is pm25 numbers while weather data includes information about temperatures, wind and precipation. We also used open street map data for our analysis. It would be great to see the geographic co-ordinates mapped and also include block wise census data to further support our analysis. We have grouped the data for each week as we got to know from locals that major waste management operations happen weekly. Also we focused on the years 2014-2019 (the pre-covid years) for our analysis. We also wanted to understand the impact of holidays on waste generation, we used Holidays python library. 
 
 ## 🧮 Methods and Techniques (250 words max)
-We have used various EDA techniques to look for insights through the data. For forcasting the load weight we have used the ARIMA algorithm. This algorithm uses the available time series data and prediscts Load Weight. 
+We started by performing data analysis to understand the given data. 
+Data Analysis Steps:
+ * 1
+ * 2
+ * 
+For forcasting the weekly waste generated (load weight) we have used the time series analysis and forecasting algorithm ARIMA. We have also tried a few regression techniques, relatively ARIMA performed better based on the evaluation metric Mean Absolute Error. 
 
 ## 💡 Main Insights (300 words max)
 Explain what you discovered from addressing this problem, such as interesting facts or statistics.
-*Write here*
+1. 1
+2. 
 
 ## 🛠️ Product
 ### Definition
