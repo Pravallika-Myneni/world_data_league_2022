@@ -14,15 +14,14 @@ Include all the authors that have worked on this submission. It is not obligator
 
 ## ✨ Introduction (250 words max)
 Provide a contextualization of the problem, together with an estimation of its size using real numbers and references.
-*Write here*
+
 
 ## 🔢 Data (250 words max)
 Explain what data you used (both provided by WDL and external) and improvements you suggest to those datasets. Explain how those improvements would lead to a better solution.
-*Write here*
+We started with the Austin garbage collection data that was provided with the challenge. Through over literature survey we found that it would be wise to include weather and air pollution data in our analysis. The pollution data that we have is pm25 numbers while weather data includes information about temperatures, wind and precipation. We also used open street map data for our analysis. It would be great to see the geographic co-ordinates mapped and also include block wise census data to further support our analysis
 
 ## 🧮 Methods and Techniques (250 words max)
-Tell us what methods and algorithms you used and the results you obtained.
-*Write here*
+We have used various EDA techniques to look for insights through the data. For forcasting the load weight we have used the ARIMA algorithm. This algorithm uses the available time series data and prediscts Load Weight. 
 
 ## 💡 Main Insights (300 words max)
 Explain what you discovered from addressing this problem, such as interesting facts or statistics.
@@ -30,18 +29,14 @@ Explain what you discovered from addressing this problem, such as interesting fa
 
 ## 🛠️ Product
 ### Definition
-Define in **one sentence** what product(s) could be built out of the code you produced.
-Example: A dashboard that assists in traffic control
+A dashboard that assists in forecasting the load weights for various types of garbage across the city of Austin
 
 ### Users
-Describe who would be the users of your product and for what purpose would they use it.
-Example: Traffic controllers use the dashboard during their work to better plan where to dispatch resources
+Waste managers or garbage collectors use the dashboard when planning a trip to collect garbage from various sites. The truck type can be selected based on the estimated load weight and type of waste. 
 
 ### Activities
-Describe what features your product has.
-Example:
-* Predicts the most likely locations for traffic accidents
-* Suggests the fastest route from dispatch centres
+* Predicts the load weight for a given day at a given site
+* Suggests a truck type for garbage collection for a given site
 
 ### Output
 Describe what the product outputs to the users and how it does that. You can add mockups and/or visualisations.
