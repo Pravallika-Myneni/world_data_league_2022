@@ -49,23 +49,17 @@ Waste managers or garbage collectors use the dashboard when planning a trip to c
 * Suggests a truck type for garbage collection for a given site
 
 ### Output
-Describe what the product outputs to the users and how it does that. You can add mockups and/or visualisations.
-Example: Location of the accident on a map and suggest the fastest route from the dispatch centre.
+The product outputs the estimate of the weekly waste generated along with plots to give an idea about the trends in recent times. 
 
 ## 🌍 Social Impact Measurement
 ### Outcome
-If the outputs are your immediate results, describe your long-term results. What do you want your product to achieve? What ''good'' are you creating?
-Example: To decrease response time from dispatchers so that people in urgent need receive help faster.
+Estimating quantities of waste produced in a region is critical for designing and operating the waste management system. Understanding maximum waste generated in a city allows managers to estimate required facilities related to waste collection and disposal accurately at the highest demand. 
 
 ### Impact Metrics
-From the outcome, define **2 to 4 metrics** that measure if you are achieving that outcome or not.
-Example:
-* Average Dispatch Time
-* Average Distance from Accident Location and Dispatch Center
+* Maximum waste generated in a week
+* Understanding which category of waste is generated the most (garbage, recycling)
+* Most active route number
 
 ### Impact Measurement
-Since you cannot wait to see the impact of your product, estimate it. You can do that by either using the estimations/predictions of your model, market research, products from proxy industries and/or similar locations, etc.
 
-Example:
-* *Based on model predictions*: Our model estimates a decrease of 6 minutes of the average dispatch time and a decrease of the average distance of 200 meters
-* *Based on proxy products*: Similar studies in other cities show that the dispatch time can be decreased by as much as 13 minutes, depending on the traffic intensity of that city.
+* Similar study in city of Austin itself in Zero Waste program shows that the diversion rate at the end of fiscal year 2021 was decreased to 41.96%
