@@ -25,14 +25,17 @@ Data Analysis Steps:
  * we tried to understand how the garbage collection is per each category of load type as well as for each drop off site
  * Further, we analysed the relation between load type and route type.
  * We tried an alternative of looking on at 2021 data for for route numbers. This is because routes are more likely to change on an annual basis. 
- * Next, we 
+ * Next, we focused on how the waste generated varied by year, month, day and hour
+ * Finally we decided do forecast garbage collected on weekly basis after merging the data with holiday data, pollution and weather data
+ 
 For forcasting the weekly waste generated (load weight) we have used the time series analysis and forecasting algorithm ARIMA. We have also tried a few regression techniques, relatively ARIMA performed better based on the evaluation metric Mean Absolute Error. 
 
 ## 💡 Main Insights (300 words max)
 Explain what you discovered from addressing this problem, such as interesting facts or statistics.
 1. From the data, we understood that the largest category of type of waste collected comes under garbage collections followed by recycling
 2. The route numbers PW and PH prefer garbage colleection usually going towards TDS lanfill
-3. 
+3. Waste generated does not show any significant trends with respect to weather conditions - temperatures, pressure or precipitation
+4. lots of yard trimmings in the spring
 
 ## 🛠️ Product
 ### Definition
