@@ -17,7 +17,6 @@ Provide a contextualization of the problem, together with an estimation of its s
 
 
 ## 🔢 Data (250 words max)
-Explain what data you used (both provided by WDL and external) and improvements you suggest to those datasets. Explain how those improvements would lead to a better solution.
 We started with the Austin garbage collection data that was provided with the challenge. Through over literature survey we found that it would be wise to include weather and air pollution data in our analysis. The pollution data that we have is pm25 numbers while weather data includes information about temperatures, wind and precipation. We also used open street map data for our analysis. It would be great to see the geographic co-ordinates mapped and also include block wise census data to further support our analysis
 
 ## 🧮 Methods and Techniques (250 words max)
